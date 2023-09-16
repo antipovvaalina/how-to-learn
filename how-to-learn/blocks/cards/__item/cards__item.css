@@ -1,0 +1,12 @@
+.cards__item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 240px;
+  padding: 0;
+}
+
+.cards__item:nth-last-child(3){
+  margin-right: 0;
+}
